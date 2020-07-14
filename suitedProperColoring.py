@@ -89,3 +89,4 @@ def suitedColorExpG( g,n,i,c={}):
             return (True, c)
     print("Fail to find a suited proper coloring")
     return (False, c)
+# to be improve
