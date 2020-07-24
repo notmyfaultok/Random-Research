@@ -14,7 +14,7 @@ def auxCheckT(a,b,i,x):
         return False
     
 
-def findFactors(n):
+def findFactorsZn(n):
     l=[]
     for i in range(n):
         l.append(i)
@@ -36,7 +36,7 @@ def findFactors(n):
                         result.append((p,q))       
     return result
 
-def findTilings(n):
+def findTilingsZn(n):
     l=[]
     for i in range(n):
         l.append(i)
@@ -59,10 +59,10 @@ def findTilings(n):
     return result
                
     
-for x in findFactors(12):
+for x in findFactorsZn(12):
     print(x)
     
-print(tilings)
+print()
 
-for x in findTilings(12):
+for x in findTilingsZn(12):
     print(x)
